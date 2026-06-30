@@ -2,7 +2,6 @@
 
 - Name: Jessie Keza Bagara
 - Student ID: 32967/2025
-- Course: DPR400210 – Database Programming
 
 # Assignment Overview
 This assignment demonstrates practical Oracle Database Administration skills using Oracle Database 21c Express Edition. The tasks involved creating and managing Pluggable Databases (PDBs), creating database users, granting privileges, configuring Oracle Enterprise Manager (OEM), and documenting the work using GitHub.
