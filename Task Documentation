@@ -1,0 +1,46 @@
+# Oracle Pluggable Database (PDB) Administration Assignment
+
+- Name: Jessie Keza Bagara
+- Student ID: 32967/2025
+- Course: DPR400210 – Database Programming
+
+# Assignment Overview
+This assignment demonstrates practical Oracle Database Administration skills using Oracle Database 21c Express Edition. The tasks involved creating and managing Pluggable Databases (PDBs), creating database users, granting privileges, configuring Oracle Enterprise Manager (OEM), and documenting the work using GitHub.
+
+# Oracle Environment
+*Oracle Version
+Oracle Database 21c Express Edition (XE)
+
+*Operating System
+Windows 10
+
+*Tools Used
+- SQL*Plus
+- Oracle Database 21c XE
+- Oracle Enterprise Manager Express
+- GitHub
+
+# Task 1 – Create and Configure a PDB
+A personal Pluggable Database named **JE_PDB_32967_2025** was created successfully.
+The PDB was opened and verified.
+A user named **JESSIE_PLSQLAUCA_32967_2025** was created inside the PDB.
+The required privileges were granted successfully.
+The user login was verified successfully.
+
+# Task 2 – Temporary PDB
+A temporary Pluggable Database named **JE_TO_DELETE_PDB_32967_2025** was created.
+The database was opened and verified.
+The temporary PDB was deleted successfully using the DROP PLUGGABLE DATABASE command with INCLUDING DATAFILES.
+The deletion was verified.
+
+# Task 3 – Oracle Enterprise Manager
+Oracle Enterprise Manager Express was accessed successfully.
+The dashboard displayed the Oracle database environment, instance information, and the created Pluggable Database.
+
+# Challenges Encountered
+Initially, SQL*Plus produced an ORA-12543 connection error because it attempted a network connection. This was resolved by connecting through Command Prompt using:
+sqlplus / as sysdba
+Another issue occurred while creating the user, which was resolved by correcting the user configuration and assigning the required privileges.
+
+# Lessons Learned
+Through this assignment, I learned how Oracle Multitenant Architecture works and how to create, open, manage, and delete Pluggable Databases. I also learned how to create database users, assign privileges, access Oracle Enterprise Manager, and document database administration activities using GitHub.
